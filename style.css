@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+}
+.large{
+    border: 0px;
+    border-radius: 1%;
+    border-style: solid;
+    height: 85%;
+    width: 65%;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 20px 15px 5px grey;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>forms</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>FILL THE BELOW FORM</h1>
+        <div class="large">
+            <form action="">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                <label for="birth">Date of birth</label>
+                <input type="date" id="birth" name="birth" required><br>
+                <fieldset aria-required="true" >
+                    <legend>What is your gender</legend> 
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+        
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </fieldset>
+                <fieldset>
+                    <legend>ADRRESS</legend>
+                    <label for="pobox">P.O.BOX</label>
+                    <input type="text" name="pobox" id="pobox" placeholder="Enter your P.O.Box" required> <br>
+                    <label for="telephone">Primary Telephone</label>
+                    <input type="text" name="telephone" id="telephone" required> 
+                    <label for="telephone2">Secondary Telephone</label>
+                    <input type="text" name="telephone2" id="telephone2"> <br>
+                    <label for="email">Main Email</label>
+                    <input type="email" name="email" id="email" placeholder="enter your email here" required>
+                    <label for="email2">Secondary Email</label>
+                    <input type="email" name="email2" id="email2" placeholder="enter your email here">
+        
+                </fieldset>
+                <label for="course">Course taken</label>
+                <input type="text" name="course" id="course" required placeholder="course taking">
+                <br>
+                <div class="low">
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">CANCLE</button>
+                </div>
+               </form>
+
+        </div>
+       
+        
+        <script src="" async defer></script>
+    </body>
+</html>
